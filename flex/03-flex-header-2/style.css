@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background: grey;
+    font-family: serif;
+    
+}
+
+.header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.profile-image {
+    background: rebeccapurple;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.logo {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+}
+
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+    
+    
+}
+
+.left-side-content,
+.right-side-content {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}

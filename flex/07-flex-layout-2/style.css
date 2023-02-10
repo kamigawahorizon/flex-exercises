@@ -1,0 +1,92 @@
+body {
+    font-family: -apple-system, BlinkMacSysteFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetic Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+}
+
+.header {
+    height 72px;
+    background: darkmagenta;
+    color: white;
+    display: flex;  /*solution to the exercise*/
+    align-items: center; /*solution to the exercise*/
+    font-size: 32px;
+    font-weight: 900;
+    padding: 16px;
+}
+
+.footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    /* position: fixed; /* not needed*/
+    /* bottom: 0; /* not needed*/
+    /* left: 0; /* not needed*/
+    /* right: 0; /* not needed*/
+    /* height: 62px; /* not needed*/
+    /* display: flex; /* not needed*/
+    /* align-items: center; /* not needed*/
+    /* justify-content: center; /* not needed*/
+    /* background: #eee; /* not needed*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    width: 300px;
+    background: royalblue;
+    /*position: fixed; /*wrong*/
+    /*height: 100%; /*wrong*/
+    /*float: left; /*wrong*/
+    flex-shrink: 0;
+    padding 16px;
+ 
+    
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 8px; /*solution to the exercise*/
+    padding: 8px; /*solution to the exercise*/
+}
+
+li {
+    margin-bottom: 16px; /*solution to the exercise*/
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px; /*solution to the exercise*/
+}
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba (0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+}
+
+
+
+
+.box-card {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 32px; /* not needed*/
+   
+    /* justify-content: center; /* not needed*/
+}

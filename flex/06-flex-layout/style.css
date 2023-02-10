@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex; /* forgot to put before flex direction*/
+    flex-direction: column;
+}
+
+.header, 
+.footer /*I should have combined this. never thought this was possible. Live and learn.*/{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px; /*forgot that this was the solution*/
+    /*gap: 22px; /*not needed*/
+    /*font-size: 20px; /*not needed*/
+    /*color: grey; /*not needed*/
+    /*margin: 11px; /*not needed*/
+    /*margin: 10px ---> there will be white space on the footer. 
+    */
+}
+
+.footer{
+    background: #eee; /*This is the solution, I never thought seperate class is possible. Live and learn.*/
+}
+
+.left-links {
+    /*display: flex; /* not needed */
+    /*justify-content: space-between; /* not needed */
+    /*gap: 22px; /* not needed */
+}
+
+.right-links {
+    /*display: flex; /* ugly code */
+    /*justify-content: flex-end; /* ugly code */
+    /*gap: 22px; /* ugly code */
+}
+
+.footer {
+
+    /*background: #eee; /* ugly code */
+    /*display: flex; /* ugly code */
+    /*justify-content: space-between; /* ugly code */
+    /*gap: 22px; /* ugly code */
+    /*font-size: 20px; /* ugly code */
+    /*color: grey; /* ugly code */
+    /*margin: 11px; /* ugly code */
+}
+
+
+/*.left-link2 {
+    /*display: flex;
+    /*justify-content: space-between;
+    /*gap: 22px;
+}*/
+
+
+/*.right-links2 {
+    /*display: flex;
+    /*justify-content: flex-end;
+    /*gap: 22px;
+}*/
+
+
+
+
+
+
+img {
+    width: 600px;
+    /*-display: flex;>   mistake */
+    /*justify-content: center; mistake */
+    /*align-items: center; mistake */
+    /*margin-top: 150px; mistake */
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    padding: 8px 16px;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+    margin-bottom: 16px;
+    /*display: flex; /*not needed. My mistake*/
+    /*justify-content: space-between; /*not needed. My mistake*/
+    /*align-items: space-between; /*not needed. My mistake*/
+}
+
+
+ul {
+    list-style-type: none; /*copied from stackoverflow. lol*/
+    display: flex; 
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+
+a {
+    color: #666; /*unaware that this command exist*/
+    text-decoration: none;
+}
+
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

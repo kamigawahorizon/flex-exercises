@@ -1,0 +1,22 @@
+.container {
+    background:  rgb(43, 43, 244);
+    border: 4px solid black;
+    margin: 2px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box{
+    background: salmon;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid red;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
